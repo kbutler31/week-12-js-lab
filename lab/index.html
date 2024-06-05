@@ -15,7 +15,48 @@
   </head>
   <body>
     <!-- Your HTML Code below here -->
-
+    <body>
+      <form>
+        <h4>Add New Student Form</h4>
+        <div>
+          <label for="newName">Full Name</label>
+          <input id="newName" placeholder="James Smith" />
+        </div>
+        <div>
+          <label for="newAssignment">Assignment</label>
+          <input id="newAssignment" placeholder="Animal/Plant" />
+        </div>
+        <button id="submitStudent">Submit</button>
+      </form>
+  
+      <form>
+        <h4>Update Student Form</h4>
+        <div>
+          <label for="updateId">Student ID</label>
+          <input id="updateId" />
+        </div>
+        <div>
+          <label for="updateName">Student Name</label>
+          <input id="updateName" />
+        </div>
+        <div>
+          <label for="updateAssignment">Student Assignment</label>
+          <input id="updateAssignment" />
+        </div>
+        <button id="updateStudent">Update</button>
+      </form>
+  
+      <table>
+        <thead>
+          <tr>
+            <th>Student ID</th>
+            <th>Student Name</th>
+            <th>Assignment</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
     <!-- ALL OF YOUR JQUERY/BOOTSTRAP/SCRIPT SETUP ARE BELOW HERE. 
   WE USE CDN'S (content delivery network) INSTEAD OF NODE_MODULES -->
 
@@ -38,6 +79,6 @@
       crossorigin="anonymous"
     ></script>
     <!-- Our script -->
-    <script src="./index.js"></script>
+    <script src="./week12Lab.js"></script>
   </body>
 </html>
